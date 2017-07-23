@@ -28,7 +28,7 @@ import com.pi4j.io.gpio.RaspiPin;
 import com.pi4j.io.gpio.event.GpioPinDigitalStateChangeEvent;
 import com.pi4j.io.gpio.event.GpioPinListenerDigital;
 
-@Version(1.60f)
+@Version(2.00f)
 @ShortName("GpioController")
 @DependsOn(values={"pi4j-core", "pi4j-device", "pi4j-gpio-extension"})
 public class GpioControllerWrapper extends AbsObjectWrapper<GpioController>{
